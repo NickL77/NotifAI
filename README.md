@@ -2,9 +2,14 @@
 
 Static GitHub Pages site for NotifAI privacy policy and SMS terms.
 
-## Before Publishing
+## Twilio A2P 10DLC URLs
 
-The contact email in `index.html` is `nicholas.j.liu@gmail.com`.
+- Website URL: `https://nicholasliu.me/NotifAI/`
+- Privacy Policy URL: `https://nicholasliu.me/NotifAI/privacy-policy.html`
+- Terms and Conditions URL: `https://nicholasliu.me/NotifAI/terms-and-conditions.html`
+- SMS Consent / CTA URL: `https://nicholasliu.me/NotifAI/sms-consent.html`
+
+Suggested Twilio fields are in `twilio-submission.md`.
 
 ## Publish With GitHub Pages
 

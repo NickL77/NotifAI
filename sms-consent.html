@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NotifAI Privacy Policy</title>
+    <title>NotifAI SMS Consent</title>
     <meta
       name="description"
-      content="Privacy Policy for NotifAI conversational reminders and notifications."
+      content="SMS consent and opt-in workflow for NotifAI conversational reminders and notifications."
     >
-    <link rel="canonical" href="./privacy-policy.html">
+    <link rel="canonical" href="./sms-consent.html">
     <style>
       :root {
         color-scheme: light;
@@ -18,6 +18,7 @@
         --surface: #ffffff;
         --page: #f6f8fa;
         --accent: #1d6f5f;
+        --accent-strong: #145448;
       }
 
       * {
@@ -75,8 +76,25 @@
         padding-left: 22px;
       }
 
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
       a {
         color: var(--accent);
+      }
+
+      nav a {
+        background: #e7f3ef;
+        border: 1px solid #b7d7ce;
+        border-radius: 6px;
+        color: var(--accent-strong);
+        font-weight: 600;
+        padding: 8px 12px;
+        text-decoration: none;
       }
 
       .panel {
@@ -104,37 +122,46 @@
   <body>
     <main>
       <header>
-        <h1>NotifAI Privacy Policy</h1>
+        <h1>NotifAI SMS Consent</h1>
         <p class="updated">Last updated: July 18, 2026</p>
+        <nav aria-label="Compliance pages">
+          <a href="./">Overview</a>
+          <a href="./privacy-policy.html">Privacy Policy</a>
+          <a href="./terms-and-conditions.html">Terms and Conditions</a>
+        </nav>
       </header>
 
-      <section class="panel" aria-labelledby="privacy-heading">
-        <h2 id="privacy-heading">Privacy Policy</h2>
+      <section class="panel" aria-labelledby="consent-heading">
+        <h2 id="consent-heading">Opt-In Workflow</h2>
         <p>
-          This application is used by Nicholas Liu for personal conversational SMS
-          reminders, notifications, and application testing with the owner and
-          directly opted-in friends.
+          Recipients opt in only by directly asking Nicholas Liu to receive NotifAI
+          conversational reminders, notifications, or application testing messages
+          and providing their mobile phone number for that purpose.
         </p>
         <p>
-          Phone numbers collected through the application are not shared, sold, rented,
-          or used for marketing purposes.
-        </p>
-        <p>
-          SMS messages are sent only to users who have explicitly opted in. Users may
-          opt out at any time by replying STOP.
-        </p>
-        <p>
-          For questions, contact:
-          <a href="mailto:nicholas.j.liu@gmail.com">nicholas.j.liu@gmail.com</a>.
+          Before any number is added to NotifAI, the recipient is shown or provided
+          the SMS disclosure below and must agree to receive messages.
         </p>
 
-        <h2>SMS Terms</h2>
+        <h2>Call to Action Disclosure</h2>
+        <p>
+          By providing your phone number, you agree to receive conversational SMS
+          reminders, notifications, and test messages from NotifAI. Message
+          frequency varies. Message and data rates may apply. Reply STOP to opt out
+          or HELP for help. Consent is not a condition of purchase.
+        </p>
+
+        <h2>Data Sharing</h2>
+        <p>
+          Mobile phone numbers, SMS opt-in data, and consent records are not shared
+          with third parties or affiliates for marketing or promotional purposes.
+        </p>
+
+        <h2>Opt-Out and Help</h2>
         <ul>
-          <li>Program name: NotifAI conversational reminders and notifications.</li>
-          <li>Message purpose: Personal reminders, notifications, and application testing.</li>
-          <li>Message frequency: Messages are sent only as needed for reminders, notifications, or tests.</li>
-          <li>Opt-out: Reply STOP at any time to stop receiving SMS messages.</li>
-          <li>Help: Reply HELP or contact nicholas.j.liu@gmail.com for assistance.</li>
+          <li>Reply STOP at any time to stop receiving SMS messages.</li>
+          <li>Reply HELP or email nicholas.j.liu@gmail.com for assistance.</li>
+          <li>Message frequency varies based on reminder, notification, and testing activity.</li>
           <li>Message and data rates may apply.</li>
         </ul>
       </section>
