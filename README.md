@@ -11,6 +11,10 @@ Static GitHub Pages site for NotifAI privacy policy and SMS terms.
 
 Suggested Twilio fields are in `twilio-submission.md`.
 
+For Twilio error 30882, make sure the campaign's Terms and Conditions URL field
+contains `https://nicholasliu.me/NotifAI/terms-and-conditions.html`. The Privacy
+Policy URL and Website URL do not replace that required field.
+
 ## Publish With GitHub Pages
 
 1. Create a new GitHub repository.

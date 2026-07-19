@@ -47,3 +47,11 @@ STOP to opt out or HELP for help.
 - Privacy Policy URL: `https://nicholasliu.me/NotifAI/privacy-policy.html`
 - Terms and Conditions URL: `https://nicholasliu.me/NotifAI/terms-and-conditions.html`
 - SMS Consent / CTA URL: `https://nicholasliu.me/NotifAI/sms-consent.html`
+
+For a 30882 rejection, confirm that the Twilio campaign's Terms and Conditions
+URL field specifically contains:
+
+`https://nicholasliu.me/NotifAI/terms-and-conditions.html`
+
+Do not leave the Terms and Conditions URL blank, and do not use only the Website
+URL or Privacy Policy URL for that field.
