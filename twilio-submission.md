@@ -12,15 +12,20 @@ messages.
 
 ## Message Flow / Call to Action
 
-Recipients opt in only by directly asking Nicholas Liu to receive NotifAI
-conversational reminders, notifications, or test messages and providing their
-mobile phone number for that purpose. Before any phone number is added to
-NotifAI, the recipient is provided this disclosure:
+Recipients opt in by texting START to the NotifAI phone number after receiving
+or being shown the NotifAI SMS consent disclosure. The START keyword is the only
+keyword used to opt in to this messaging program. The disclosure is:
 
-"By providing your phone number, you agree to receive conversational SMS
-reminders, notifications, and test messages from NotifAI. Message frequency
-varies. Message and data rates may apply. Reply STOP to opt out or HELP for
-help. Consent is not a condition of purchase."
+"Text START to opt in to receive conversational SMS reminders, notifications,
+and test messages from NotifAI. Message frequency varies. Message and data rates
+may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of
+purchase."
+
+After texting START, recipients receive this opt-in confirmation:
+
+"NotifAI: You are now opted in to conversational SMS reminders, notifications,
+and test messages. Message frequency varies. Message and data rates may apply.
+Reply HELP for help. Reply STOP to opt out."
 
 Opt-in information, mobile numbers, and consent are not shared with third
 parties or affiliates for marketing or promotional purposes.
